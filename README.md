@@ -5,8 +5,7 @@ In `vec2d.js` you can see vector realization and in `game.js` you can view how i
 To open example, download files and open `index.html` in your browser, move mouse over selected square and see "magic"
 
 # Installing Vector2D
-Download file `vec2d.js` and put in your folder
-Put that to document head. Must look like:
+Download file `vec2d.js` and put script tag with it in document head tag
 ```html
 <html>
     <head>
