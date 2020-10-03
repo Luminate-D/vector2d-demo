@@ -40,7 +40,7 @@ let player = new Player();
 
 setInterval(() => {
     ctx.clearRect(0, 0, 500, 500);
-    window.mouseVector = new Vector2D(mouseX + 250, mouseY + 250);
+    window.mouseVector = new Vector2D((mouseX || 0) + 250, (mouseY || 0) + 250);
     player.update();
     player.draw();
 }, 1000 / 60);
